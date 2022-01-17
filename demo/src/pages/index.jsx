@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useModel } from 'umi';
 
-import CustomModal from '../../../common/template/CustomModal/index.jsx'
 import styles from './index.less';
 
 export default function IndexPage() {

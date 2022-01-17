@@ -14,7 +14,7 @@ export default function IndexPage() {
       >
         修改全 stat
       </button>
-      <button onClick={() => setState((s) => s + 'o')}>修改子应用 props</button>
+      <button onClick={() => setState((s) => s + 'o')}>修应用 props</button>
       <MicroApp testProp1={microAppState} name="demo" />
     </div>
   );
