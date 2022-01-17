@@ -5,5 +5,5 @@ module.exports = {
   // domain: 'https://localhost:443',
   // socketApi: 'wss://oem-api-pe.jessieray.xin'
   socketApi: 'wss://oem-api-te.jessieray.xin'
-  // socketApi: ' ws://192.168.99.33:8081',
+  // socketApi: 'ws://192.168.99.33:8081',
 }
