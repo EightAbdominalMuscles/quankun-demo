@@ -8,7 +8,8 @@
 ### 新建子应用
   1. 复制粘贴demo并修改名称为A项目
   2. A项目修改成固定端口号  .env文件中修改port值
-  3. 在根文件下package.json中添加启动命令
+  3. 在根文件下package.json中添加启动命令（如demo信息所示）
+  4. 在main主项目 main/config/qiankun.js 中添加 子项目信息 （如demo信息所示）
 
 ### 插件引入
   https://umijs.org/zh-CN/plugins/plugin-qiankun    qiankun umi插件
@@ -22,11 +23,4 @@
     "start:base": "cd base && umi dev",
     "start:app1": "cd app1 && umi dev",
   }
-```
-> 2. 访问顶级目录
-```
-.umi.js
-alias: {
-  '@@@': '../../'
-}
 ```
